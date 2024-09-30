@@ -1,13 +1,5 @@
 # Configuration and runtime support
 
-Note:
-  - Settings is File>Preferences>Settings (or `Ctrl+,`)
-  - Configuration of the runtimes is separate from configuration of the analysis
-
-Assumptions:
-  - Configuration will reside in a configuration file on the developer's workstation
-
-
 ## Story highlights
   - Configuration of runtime can be on User or Workspace level
 
@@ -26,9 +18,16 @@ Assumptions:
   - Verification of configuration covered under the [startup and keep alive](./manage_runtime.md) story
 
 
-## Consideration
+## Considerations
+Note:
+  - Settings is File>Preferences>Settings (or `Ctrl+,`)
+  - Configuration of the runtimes is separate from configuration of the analysis
+
+Assumptions:
+  - Configuration will reside in a configuration file on the developer's workstation
+
 Open Questions:
-How are credentials/keys going to be stored?
-How is authentication going to be handled?
-How will the client consume previously solved examples from Konveyor?
+  - How are credentials/keys going to be stored?
+  - How is authentication going to be handled?
+  - How will the client consume previously solved examples from Konveyor?
 
