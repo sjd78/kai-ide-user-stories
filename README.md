@@ -59,8 +59,8 @@ How to iterate with the suggested change
 
 The high-level user stories are as follows:
   - [Configuration and runtime support](./story/configuration_and_runtime_support.md)
-  - [Configure analysis](./story/configure_analysis.md)
   - [Startup and keep alive the analyzer/Kai runtime](./story/manage_runtime.md)
+  - [Configure analysis](./story/configure_analysis.md)
   - [Surface analysis results](./story/surface_analysis.md)...
     - as file based problems in the normal linter/codemod pattern
     - as issues at the project level potentially spanning multiple files
