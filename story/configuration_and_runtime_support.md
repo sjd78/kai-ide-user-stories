@@ -1,14 +1,14 @@
 # Configuration and runtime support
 
 ## Story highlights
-  - Configuration of runtime can be on User or Workspace level
+  - Configuration of the analysis/Kia runtime can be on User or Workspace level
 
   - Select the runtime to setup and configure, options should support:
     - deployed with the extension itself _(as the default)_
     - portable runtime the developer makes available
     - runtime installed to the workstation (by developer or by admins)
 
-  - Configure the server
+  - Configure the runtime server
     - Standard configuration view pattern is ok
     - Support storing secretes needed by the runtime
       - Support logging in to services (e.g. login to LLM proxy)
@@ -17,6 +17,9 @@
 
   - Verification of configuration covered under the [startup and keep alive](./manage_runtime.md) story
 
+  - Use [Walkthroughs](https://code.visualstudio.com/api/ux-guidelines/walkthroughs) as a root for configuration user flows
+
+  - After initial install / start of the extension,open the walkthrough to make it obvious that initial configurations need to be chosen and verified before the extension can operate properly.
 
 ## Considerations
 Note:
