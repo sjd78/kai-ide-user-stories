@@ -1,6 +1,6 @@
 # Configure Analysis
 
-A developer will need to choose the options to apply for analysis of their project.  Selection of an appropriate analysis configuration for a project is very important for the accurate and useful discovery and resolution of issues.
+A developer will need to choose the options to apply for analysis of their project.  They need to consider where they are coming from and where they are going.  Selection of an appropriate analysis configuration for a project is very important for the accurate and useful discovery and resolution of issues.
 
 The plugin will provide an analysis configuration to the analyzer/Kai server.  The analysis configuration may be changed at any time by the developer and the analyzer/Kai server will need to readjust.
 
@@ -8,16 +8,18 @@ Konveyor web UI provides a robust guided build of an analysis task.  Much of the
 
 
 ## Story Highlights
-  - Analysis configuration should be profile based...
-    - A profile is defined as a bundle of analyzer options (e.g. kantra source tech, target tech, and rule labels)
+  - Analysis configuration should be __profile__ based...
+    - A profile is defined as a bundle of analyzer options...
+      - source tech,
+      - target tech,
+      - rule labels,
+      - custom rules
     - Follow a similar pattern to the way run/debug configurations are stored
     - Anticipate a single configuration file with multiple entires
 
   - Only a single profile will be active at any given time
 
   - The developer may change the active profile at any time
-
-  - Analysis configuration should be selected as
 
   - The developer may define their own analysis configuration profiles
 
@@ -32,18 +34,14 @@ Konveyor web UI provides a robust guided build of an analysis task.  Much of the
 
   - Command Palette
     - Select analysis configuration
+    - Create/Edit analysis configurations
 
-
-
-  - After initial install / start of the extensions, an analysis configuration must be selected before any issues can be discovered
-
-
-
+  - After initial install / start of the extensions, an analysis configuration must be selected before any issues can be discovered and presented
+    - Status indicator should show "Configuration required" as necessary
+    - Custom views should show "Configuration required" as necessary
 
 
 ## Considerations
 
 [^1]: Comparing to Konveyor HUB and UI, we can emulate the [hub target entities](https://github.com/konveyor/tackle2-hub/blob/6b050e7be9e651f12e9c64b2b685a856f8e1e970/api/target.go#L237-L247) and provide an experience similar to what is asked for in the [target platforms](https://github.com/konveyor/enhancements/tree/master/enhancements/archetype-target-platforms) enhancement.
 
-
-[^2]: See the Konveyor [target platforms](https://github.com/konveyor/enhancements/tree/master/enhancements/archetype-target-platforms) enhancement.
