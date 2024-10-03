@@ -5,7 +5,7 @@ The plugin is responsible for managing the runtime (start, stop, restart) and fo
 
 ## Story highlights
   - After initial install / start of the extension, decide what needs to be done:
-    - attempt to start the embedded servers, OR
+    - attempt to start the embedded servers with default configs, OR
     - open the [configuration view](./configuration_and_runtime_support.md) to force user interaction to verify configuration
 
   - Configuration view should have a 'Test' button to:
@@ -38,5 +38,4 @@ The plugin is responsible for managing the runtime (start, stop, restart) and fo
 
 
 ## Considerations
-Concern:
-Having to manually start the client is not tenable.
+...
