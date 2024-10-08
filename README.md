@@ -64,7 +64,7 @@ The high-level user stories are as follows:
   - [Surface analysis results](./story/surface_analysis.md)...
     - as file based problems in the normal linter/codemod pattern
     - as issues at the project level potentially spanning multiple files
-  - [Help focus the user to select and solve a single issue](./story/focus_on_issues.md)
+    - [Help focus the user to select and solve a single issue](./story/focus_on_issues.md)
   - [Iterate on issue resolution](./story/iterate_on_issue_resolution.md)
     - at minimum: interact with Kai on a single issue in a single source file
     - _stretch goal_: interact with Kai on the basis of a single issue that may span multiple source files
