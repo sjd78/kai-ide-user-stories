@@ -22,6 +22,7 @@ When the analyzer is configured and running, it will return analysis results.  T
       - when code problem is hovered, at least the incident's message is shown
       - when code problem view is open, at least the incident's message is show
       - provide a link inside the code problem view to open the incident details
+      - provide a link in the code action menu (Ctrl+.) to open the incident or issue details
     - potential to use a [code lense](https://code.visualstudio.com/api/language-extensions/programmatic-language-features#codelens-show-actionable-context-information-within-source-code) to highlight where an incident is located with the basic info and action buttons presented (corollary is a git extension that can highlight the beginning of a change in the last commit)
     - provide some extension level configuration for:
       - the underline display styling
