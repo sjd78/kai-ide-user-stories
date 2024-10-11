@@ -25,7 +25,7 @@ Iterating over Kai proposed solution in a conversational interaction is a future
 ### Starting a resolution
   - In a file editor, provide [Code Actions](https://code.visualstudio.com/api/language-extensions/programmatic-language-features#possible-actions-on-errors-or-warnings) (Ctrl+.) on an incident warning to start __Kai resolution__.  Multiple actions can be provided, and the text for each action can align to the resolution scope.  Core set of actions can be:
     - within the file, resolve just the focused incident &rarr; "resolve this incident with Kai"
-    - within the file, resolve all incidents for the same issue that owns the focused incident &rarr; "resolve all relates incidents with Kai"
+    - within the file, resolve all incidents for the same issue that owns the focused incident &rarr; "resolve all related incidents with Kai"
     - _Note_: other code actions to link to incident/issue details may also be present but should be in a separate grouping.  Other informational actions would be defined in [surface analysis](./surface_analysis.md).
 
   - In the Problems panel, provide Code Actions (RightClick) for the incidents.  Core set of actions can be:
