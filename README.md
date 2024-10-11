@@ -4,7 +4,7 @@ See [as github tracking issue](https://github.com/konveyor/editor-extensions/iss
 
 The Kai ide experience focuses on the common habits of a developer who needs to migrate a project to a new technology.
 
-Analysis provides issues.  The issues need to be resolved in order to migrate to a new technology.  The tooling should encourage the developer to focus on making changes at the issue level.  Scope work to a single issue can help to keep both the set of changes needed at any one time smaller, and developer cognitive load low.
+Analysis provides issues.  Issues contain incidents.  All of the incidents in all of the issues need to be resolved in order to migrate to a new technology.  The tooling should encourage the developer to focus on making changes at the issue level.  Scoping work to a single issue can help to keep both the set of changes needed at any one time smaller, and developer cognitive load low.
 
 From an identified set of issues, the developer will commonly want to:
   1. Fix a single issue in a single source file
@@ -49,8 +49,6 @@ Cascading changes?
   - How to include a suggested change’s potential project level code refactoring needs?
   - What part of a suggested change would be coming from Kai?
   - What additional code refactoring would be required to related files if a suggested change is applied?
-
-How to start the interaction with Kai -- from where to what new view
 
 How to iterate with the suggested change
 
