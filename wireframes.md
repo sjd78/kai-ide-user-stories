@@ -1,60 +1,5 @@
 # Catalog of wire frames needed for the user stories
 
-## Welcome Page
-  - Extension walkthroughs shown on the general Welcome page
-  - Extension specific welcome page?
-
-## Walkthrough for configuration points
-> [!NOTE]
-> All of the settings will drop in `settings.json` or similar file.  Therefore, all of the settings could also be configured under the standard Settings view (Ctrl+,) or directly in the json file.
-
-About the UX for the Walkthrough...
-  - multi-step checklist featuring rich content
-  - when a step is activated, a brief action description with links and action buttons are presented under the step text while a longer image/description is displayed to the right
-  - most actions will:
-    - open an external URL
-    - run a command
-    - open a quick pick menu
-    - open view, panel or editor
-
-Walkthrough steps:
-  1. Guided setup of the Kai runtime (Wizard based?)
-    Steps:
-      - Select between:
-        - runtime included in the extensions
-        - external/custom runtime (portable app version and installed versions probably look the same to the extension so no need to differentiate the experience on that)
-
-      - Configure the non-analyzer runtime settings
-
-      - Verify the Kai runtime can be started (this is the "test the runtime starts and a simple ping/ack message is working" action):
-        - Startup the server and ping/ack or check/good-to-go
-        - Verify/configure any needed external runtimes or libraries
-          - Check java
-          - Check maven
-          - Any other runtimes that would be needed by the supported providers?
-
-
-  2. Manage analysis configuration profiles as a custom webview in the editor space
-      - View a list packaged profiles
-      - View the details of a single profile
-      - Create a new empty profile
-        - (details of the fields and what is required depends on the Kai-server)
-      - Duplicate an existing profile
-      - Remove a user created profile
-        - (new empty or duplicated profiles only -- keep packaged profiles around)
-
-
-  3. Select an analysis configuration profile
-      - Pick one from a quick pick menu
-      - Open the profile manager
-      - Note: This action may be invoked from many other places
-
-
-## Next visual component
-
-
-## Simple catalog
-
   - Output channel for displaying trace/debug information
     - Multiple channels are ok as long it is obvious what each channel will display.  There may be technical/debug value in having a channel for:
       - extension processing (settings, start, stop, restart of the server)
@@ -64,22 +9,21 @@ Walkthrough steps:
   - Command palette
     - Every entity (command, quick pick menu, and view) that is available in the extension should have a command palette entry to activate/display the entity
 
-  - Extension specific welcome page
+  - Extension specific welcome page, or general Welcome page having Konveyor walkthroughts on the getting started list
 
   - Walkthrough with steps:
     - Guided setup of Kai runtime
     - Manage analysis configuration profiles
     - Select active analysis configuration profile
 
-  - Editor view for guided setup of Kai runtime Wizard with steps:
+  - Guided setup of Kai runtime Wizard (editor view) with steps:
     - Select runtime
     - Configure the non-analysis configurations settings
-    - Configure credentials/secrets for LLM access
-      - __This probably includes the LLM configurations!__
+    - Configure credentials/secrets/configurations needed for the LLM
     - Verify the Kai runtime can be started with feedback in the view
 
-  - Editor view for managing analysis configuration profiles
-    - View a list packaged and user profiles
+  - Manage analysis configuration profiles (editor view)
+    - View a list of __packaged__ and __user__ profiles
     - View the details of a single profile
     - Create a new empty profile
       - A user create profile is where custom rules can be attached
@@ -195,6 +139,55 @@ Walkthrough steps:
         - incident just show location (line) and a message
     - Actions to start Kai resolution at different scopes
     - Click to navigate to file/incident
+
+# More Details
+
+
+## Walkthrough for configuration points
+> [!NOTE]
+> All of the settings will drop in `settings.json` or similar file.  Therefore, all of the settings could also be configured under the standard Settings view (Ctrl+,) or directly in the json file.
+
+About the UX for the Walkthrough...
+  - multi-step checklist featuring rich content
+  - when a step is activated, a brief action description with links and action buttons are presented under the step text while a longer image/description is displayed to the right
+  - most actions will:
+    - open an external URL
+    - run a command
+    - open a quick pick menu
+    - open view, panel or editor
+
+Walkthrough steps:
+  1. Guided setup of the Kai runtime (Wizard based?)
+    Steps:
+      - Select between:
+        - runtime included in the extensions
+        - external/custom runtime (portable app version and installed versions probably look the same to the extension so no need to differentiate the experience on that)
+
+      - Configure the non-analyzer runtime settings
+
+      - Verify the Kai runtime can be started (this is the "test the runtime starts and a simple ping/ack message is working" action):
+        - Startup the server and ping/ack or check/good-to-go
+        - Verify/configure any needed external runtimes or libraries
+          - Check java
+          - Check maven
+          - Any other runtimes that would be needed by the supported providers?
+
+
+  2. Manage analysis configuration profiles as a custom webview in the editor space
+      - View a list packaged profiles
+      - View the details of a single profile
+      - Create a new empty profile
+        - (details of the fields and what is required depends on the Kai-server)
+      - Duplicate an existing profile
+      - Remove a user created profile
+        - (new empty or duplicated profiles only -- keep packaged profiles around)
+
+
+  3. Select an analysis configuration profile
+      - Pick one from a quick pick menu
+      - Open the profile manager
+      - Note: This action may be invoked from many other places
+
 
 # Questions
 
