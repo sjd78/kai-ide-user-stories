@@ -43,5 +43,7 @@ Konveyor web UI provides a robust guided build of an analysis task.  Much of the
 
 ## Considerations
 
+...
+
 [^1]: Comparing to Konveyor HUB and UI, we can emulate the [hub target entities](https://github.com/konveyor/tackle2-hub/blob/6b050e7be9e651f12e9c64b2b685a856f8e1e970/api/target.go#L237-L247) and provide an experience similar to what is asked for in the [target platforms](https://github.com/konveyor/enhancements/tree/master/enhancements/archetype-target-platforms) enhancement.
 
