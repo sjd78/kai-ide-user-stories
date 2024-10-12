@@ -1,5 +1,3 @@
-![test](./wireframe/test.excalidraw.svg)
-
 # Catalog of wire frames needed for the user stories
 
   1. Output channel for displaying trace/debug information
@@ -7,6 +5,8 @@
         - extension processing (settings, start, stop, restart of the server)
         - analyzer processing
         - Kai processing
+
+![output channel](./wireframe/1.output channel.excalidraw.svg)
 
   2. Command palette
       - Every entity (command, quick pick menu, and view) that is available in the extension should have a command palette entry to activate/display the entity
