@@ -6,23 +6,31 @@
         - analyzer processing
         - Kai processing
 
-![output channel](./wireframe/1.output channel.excalidraw.svg)
+      ![output channel](./wireframe/1.outputchannel.excalidraw.svg)
 
   2. Command palette
       - Every entity (command, quick pick menu, and view) that is available in the extension should have a command palette entry to activate/display the entity
 
+      ![command palette](./wireframe/2.command-palette.excalidraw.svg)
+
   3. Extension specific welcome page, or general Welcome page having Konveyor walkthroughts on the getting started list
+
+      ![welcome page](./wireframe/3.welcome.excalidraw.svg)
 
   4. Walkthrough with steps:
       - Guided setup of Kai runtime
       - Manage analysis configuration profiles
       - Select active analysis configuration profile
 
+      ![walkthrough steps](./wireframe/4.walkthrough.get-started.excalidraw.svg)
+
   5. Guided setup of Kai runtime Wizard (editor view) with steps:
       - Select runtime
       - Configure the non-analysis configurations settings
       - Configure credentials/secrets/configurations needed for the LLM
       - Verify the Kai runtime can be started with feedback in the view
+
+      ![manage profiles](./wireframe/5.manage-profiles.excalidraw.svg)
 
   6. Manage analysis configuration profiles (editor view)
       - View a list of __packaged__ and __user__ profiles
