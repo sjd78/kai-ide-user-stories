@@ -30,8 +30,6 @@
       - Configure credentials/secrets/configurations needed for the LLM
       - Verify the Kai runtime can be started with feedback in the view
 
-      ![manage profiles](./wireframe/5.manage-profiles.excalidraw.svg)
-
   6. Manage analysis configuration profiles (editor view)
       - View a list of __packaged__ and __user__ profiles
       - View the details of a single profile
@@ -40,6 +38,9 @@
         - __Managing custom rules will need attention__
       - Duplicate an existing profile
       - Remove a user created profile
+
+      ![manage profiles](./wireframe/6.manage-profiles.excalidraw.svg)
+
 
   7. Quick pick menu for analysis configuration profiles
       - Pick one of the profiles
