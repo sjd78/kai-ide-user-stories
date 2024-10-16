@@ -30,6 +30,8 @@
       - Configure credentials/secrets/configurations needed for the LLM
       - Verify the Kai runtime can be started with feedback in the view
 
+      ![runtime wizard](./wireframe/5.setup-runtime.excalidraw.svg)
+
   6. Manage analysis configuration profiles (editor view)
       - View a list of __packaged__ and __user__ profiles
       - View the details of a single profile
@@ -40,7 +42,6 @@
       - Remove a user created profile
 
       ![manage profiles](./wireframe/6.manage-profiles.excalidraw.svg)
-
 
   7. Quick pick menu for analysis configuration profiles
       - Pick one of the profiles
@@ -86,7 +87,7 @@
       - when results are available, show counts of issues and incidents for the active file
       - on click show a file relevant quick pick menu
 
-  13. Problems view
+  13. Problems view :bangbang: **next to work on**
       - Display each known incident as a problem
       - Severity of the problem should be tied to the category/effort of its issue
       - on hover will show the same details as on hover in the editor
