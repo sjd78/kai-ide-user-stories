@@ -87,12 +87,14 @@
       - when results are available, show counts of issues and incidents for the active file
       - on click show a file relevant quick pick menu
 
-  13. Problems view :bangbang: **next to work on**
+  13. Problems view
       - Display each known incident as a problem
       - Severity of the problem should be tied to the category/effort of its issue
       - on hover will show the same details as on hover in the editor
       - on left click will open the problem in the file itself (standard behavior)
       - on right click will show the same code actions available in the code editor
+
+  ![problems view](./wireframe/13.problems-view.excalidraw.svg)
 
   14. Konveyor AI View Container
       - View Container icon
