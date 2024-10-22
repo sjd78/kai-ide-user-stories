@@ -1,4 +1,31 @@
-# Catalog of wire frames needed for the user stories
+# Catalog of wire frames
+
+Based on the [user stories](./README.md), the set of wire frames needed to implement the stories are listed here.
+
+## TOC
+
+  1. [Output channel for displaying trace/debug information](#wf-1)
+  2. [Command palette](#wf-2)
+  3. [Extension specific welcome page](#wf-3)
+  4. [Walkthrough with steps](#wf-4)
+  5. [Guided setup of Kai runtime Wizard](#wf-5)
+  6. [Manage analysis configuration profiles](#wf-6)
+  7. [Quick pick menu for analysis configuration profiles](#wf-7)
+  8. [Quick pick menu for managing the Kai server](#wf-8)
+  9. [Quick pick menu for an active file](#wf-9)
+  10. [Global status bar item (for the Workspace) -- for extension/analysis](#wf-10)
+  11. [Global status bar item (for the Workspace) -- for Kai resolution](#wf-11)
+  12. [Context status bar item (for the Editor)](#wf-12)
+  13. [Problems view](#wf-13)
+  14. [Konveyor AI View Container](#wf-14)
+  15. [Code editor (for viewing issues and incidents)](#wf-15)
+  16. [Issue tree view](#wf-16)
+  17. [Issue view](#wf-17)
+  18. [View Kai suggested resolutions](#wf-18)
+  19. [Accept/Reject suggested resolutions](#wf-19)
+
+## Wireframes
+
 
   1. <a name="wf-1"></a> Output channel for displaying trace/debug information
       - Multiple channels are ok as long it is obvious what each channel will display.  There may be technical/debug value in having a channel for:
