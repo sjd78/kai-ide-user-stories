@@ -184,10 +184,17 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
       - Click to navigate to file/incident
 
   18. <a name="wf-18"></a>View Kai suggested resolutions
-      - Single incident
-      - All incidents for a single issue in a file
-      - All incidents for all issues in a single file
-      - All incident for a single issue in all affected files
+      - Potential scopes of resolutions:
+        - Single incident
+        - All incidents for a single issue in a file
+        - All incidents for all issues in a single file
+        - All incident for a single issue in all affected files
+      - Collect info about the issues/incidents in the scope and show:
+        - Details of the scope
+        - Progress of the resolution
+        - Details/meta-data about the resolution presented
+        - List the files changed and the specific diffs
+        - Accept (apply all diffs) / Reject (remove all diffs) at the entire resolution level
 
   19. <a name="wf-19"></a>Accept/Reject suggested resolutions
       - Accept/reject a single resolution in a single file
@@ -196,6 +203,7 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
 
 
 # More Details
+
 
 
 ## Walkthrough for configuration points

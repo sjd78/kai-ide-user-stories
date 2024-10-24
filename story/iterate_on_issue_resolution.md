@@ -14,13 +14,13 @@ Iterating over Kai proposed solution in a conversational interaction is a future
     - project level: the full set of issues across the project
 
   - A typical developer workflow is anticipated to be:
-    - request a __Kai resolution__ at a particular scope,
-    - review the resulting __changes__,
+    - request a __Kai resolution__ at a particular scope
+    - review the resulting __changes__
     - accept/reject each change
     - view analysis results after the changes are accepted/rejected
     - commit the changes to source control
 
-  - ¿¿¿ In general, the resolution scope to focus on will be a balance between the size of __changes__ that Kai can work on and what is easy for the developer to consider at one time.  We want to avoid developer cognitive overload by selecting scopes where the suggested changes can be reasonably verified. ???
+  - In general, the resolution scope to focus on will be a balance between the size of __changes__ that Kai can work on and what is easy for the developer to consider at one time.  We want to avoid developer cognitive overload by selecting scopes where the suggested changes can be reasonably verified.
 
 ### Starting a resolution
   - In a file editor, provide [Code Actions](https://code.visualstudio.com/api/language-extensions/programmatic-language-features#possible-actions-on-errors-or-warnings) (Ctrl+.) on an incident warning to start __Kai resolution__.  Multiple actions can be provided, and the text for each action can align to the resolution scope.  Core set of actions can be:
@@ -75,6 +75,8 @@ Iterating over Kai proposed solution in a conversational interaction is a future
 
 ## Considerations
 
+Since Kai is working with the goal of "completely fixing the problem", multiple files may receive changes when fixing a single incident. This may be a long running request. With the extra thinking time, and a set of the changes with some explanation details lines up with a standard pull request kind of process.  Put potential changes somewhere and ask a developer to merge them after reviewing the description and code changes.
+
 Basics...
   - at minimum: interact with Kai on a single issue in a single source file
   - _stretch goal_: interact with Kai on the basis of a single issue that may span multiple source files
@@ -112,13 +114,3 @@ What happens if a resolution requires cascading code refactors (i.e. a function/
 - Using diffs might be effective at scale, but feels like a poor/outdated user experience when compared to interactive code assistants
 
 - How to surface cascading changes across multiple files?
-
-
-Per-issue changes could be more interactive, but some things would need to be solved:
-Acceptance flow for solutions surfaced in an interactive way:
-Implicit when saving?
-Explicit by other mechanisms?
-We should explore the notion of confidence to guide users on the potential accuracy of recommendations:
-Should the notion of “accepted solutions” be included as a confidence metric?
-When remediation is applied, issues should be updated automatically (and quickly) to reflect the fixes:
-Partial analysis has been proposed as a solution.
