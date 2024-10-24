@@ -135,6 +135,8 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
       - Editor:
         - Issue view
 
+  ![kai view container](./wireframe/14.kai-view-container.excalidraw.svg)
+
   15. <a name="wf-15"></a>Code editor (for viewing issues and incidents)
       - diagnostics
         - incidents as problems/diagnostics with the underline
