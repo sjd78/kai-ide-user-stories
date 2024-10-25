@@ -21,8 +21,9 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
   15. [Code editor (for viewing issues and incidents)](#wf-15)
   16. [Issue tree view](#wf-16)
   17. [Issue view](#wf-17)
-  18. [View Kai suggested resolutions](#wf-18)
-  19. [Accept/Reject suggested resolutions](#wf-19)
+  18. [Kai resolutions tree view](#wf-18)
+  19. [Kai resolutions view](#wf-19)
+  20. [Accept/Reject suggested resolutions](#wf-20)
 
 ## Wireframes
 
@@ -176,7 +177,7 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
 
       ![issue tree view](./wireframe/16.issues-tree-view.excalidraw.svg)
 
-  17. <a name="wf-17"></a>Issue view (webview in the editor location)
+  17. <a name="wf-17"></a>Issue view (webview)
       - Issue list/table that is filterable and sortable (expandable table | compound expandable | expandable with nested table)
         - Sort on issue name, category, effort, file count, incident count
         - Filter on all issue data
@@ -190,20 +191,7 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
 
   ![issue view - webview](./wireframe/17.issues-view-webview.excalidraw.svg)
 
-  18. <a name="wf-18"></a>View Kai suggested resolutions
-      - Potential scopes of resolutions:
-        - Single incident
-        - All incidents for a single issue in a file
-        - All incidents for all issues in a single file
-        - All incident for a single issue in all affected files
-      - Collect info about the issues/incidents in the scope and show:
-        - Details of the scope
-        - Progress of the resolution
-        - Details/meta-data about the resolution presented
-        - List the files changed and the specific diffs
-        - Accept (apply all diffs) / Reject (remove all diffs) at the entire resolution level
-
-  19. <a name="wf-19"></a>Kai resolutions tree view
+  18. <a name="wf-18"></a>Kai resolutions tree view
       - extension/analyzer not configured, show "No resolutions are available"
       - if analysis is running, include [progress in the view](https://code.visualstudio.com/api/ux-guidelines/views#views-with-progress)
       - View actions:
@@ -218,7 +206,20 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
         - File: open the file to the location of the first diff
         - Diff: open the file to the location to the diff
 
-      ![resolutions tree view](./wireframe/19.kai-resolutions-tree-view.excalidraw.svg)
+      ![resolutions tree view](./wireframe/18.kai-resolutions-tree-view.excalidraw.svg)
+
+  19. <a name="wf-19"></a>Kai resolutions view (webview)
+      - Potential scopes of resolutions:
+        - Single incident
+        - All incidents for a single issue in a file
+        - All incidents for all issues in a single file
+        - All incident for a single issue in all affected files
+      - Collect info about the issues/incidents in the scope and show:
+        - Details of the scope
+        - Progress of the resolution
+        - Details/meta-data about the resolution presented
+        - List the files changed and the specific diffs
+        - Accept (apply all diffs) / Reject (remove all diffs) at the entire resolution level
 
   20. <a name="wf-20"></a>Accept/Reject suggested resolutions
       - Accept/reject a single resolution in a single file
