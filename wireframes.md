@@ -26,6 +26,9 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
 
 ## Wireframes
 
+  0. <a name="wf-0"></a>Layout / display areas of the IDE
+
+      ![ide layout](./wireframe/0.ide-layout.excalidraw.svg)
 
   1. <a name="wf-1"></a> Output channel for displaying trace/debug information
       - Multiple channels are ok as long it is obvious what each channel will display.  There may be technical/debug value in having a channel for:
@@ -121,7 +124,7 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
       - on left click will open the problem in the file itself (standard behavior)
       - on right click will show the same code actions available in the code editor
 
-  ![problems view](./wireframe/13.problems-view.excalidraw.svg)
+      ![problems view](./wireframe/13.problems-view.excalidraw.svg)
 
   14. <a name="wf-14"></a>Konveyor AI View Container
       - View Container icon
@@ -135,7 +138,7 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
       - Editor:
         - Issue view
 
-  ![kai view container](./wireframe/14.kai-view-container.excalidraw.svg)
+      ![kai view container](./wireframe/14.kai-view-container.excalidraw.svg)
 
   15. <a name="wf-15"></a>Code editor (for viewing issues and incidents)
       - diagnostics
@@ -171,6 +174,8 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
         - File: open the file to the location of the first incident for the enclosing issue
         - Incident: open the file to the location of the incident
 
+      ![issue tree view](./wireframe/16.issues-tree-view.excalidraw.svg)
+
   17. <a name="wf-17"></a>Issue view (webview in the editor location)
       - Issue list/table that is filterable and sortable (expandable table | compound expandable | expandable with nested table)
         - Sort on issue name, category, effort, file count, incident count
@@ -182,6 +187,8 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
           - incident just show location (line) and a message
       - Actions to start Kai resolution at different scopes
       - Click to navigate to file/incident
+
+  ![issue view - webview](./wireframe/17.issues-view-webview.excalidraw.svg)
 
   18. <a name="wf-18"></a>View Kai suggested resolutions
       - Potential scopes of resolutions:
@@ -196,7 +203,24 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
         - List the files changed and the specific diffs
         - Accept (apply all diffs) / Reject (remove all diffs) at the entire resolution level
 
-  19. <a name="wf-19"></a>Accept/Reject suggested resolutions
+  19. <a name="wf-19"></a>Kai resolutions tree view
+      - extension/analyzer not configured, show "No resolutions are available"
+      - if analysis is running, include [progress in the view](https://code.visualstudio.com/api/ux-guidelines/views#views-with-progress)
+      - View actions:
+        - Rotate active structure
+        - Collapse tree
+        - Expand tree
+      - Structures:
+        - "Resolution" > File
+        - "Resolution" > File > Diff
+      - on click of...
+        - Resolution: open the resolution in the suggested resolutions view
+        - File: open the file to the location of the first diff
+        - Diff: open the file to the location to the diff
+
+      ![resolutions tree view](./wireframe/19.kai-resolutions-tree-view.excalidraw.svg)
+
+  20. <a name="wf-20"></a>Accept/Reject suggested resolutions
       - Accept/reject a single resolution in a single file
       - Accept/reject all resolutions in a single file
       - Accept/reject all resolutions for a single issue across all files
