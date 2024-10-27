@@ -189,7 +189,7 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
       - Actions to start Kai resolution at different scopes
       - Click to navigate to file/incident
 
-  ![issue view - webview](./wireframe/17.issues-view-webview.excalidraw.svg)
+      ![issue view - webview](./wireframe/17.issues-view-webview.excalidraw.svg)
 
   18. <a name="wf-18"></a>Kai resolutions tree view
       - extension/analyzer not configured, show "No resolutions are available"
