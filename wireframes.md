@@ -221,6 +221,8 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
         - List the files changed and the specific diffs
         - Accept (apply all diffs) / Reject (remove all diffs) at the entire resolution level
 
+      ![resolution view](./wireframe/19.resolution-view.excalidraw.svg)
+
   20. <a name="wf-20"></a>Accept/Reject suggested resolutions
       - Accept/reject a single resolution in a single file
       - Accept/reject all resolutions in a single file
