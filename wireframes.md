@@ -228,6 +228,8 @@ Based on the [user stories](./README.md), the set of wire frames needed to imple
       - Accept/reject all resolutions in a single file
       - Accept/reject all resolutions for a single issue across all files
 
+      ![review changes](./wireframe/20.review-changes.excalidraw.svg)
+
 
 # More Details
 
