@@ -1,4 +1,6 @@
-See [as github tracking issue](https://github.com/konveyor/editor-extensions/issues/19).
+>[!important]
+>The contents of this repo is moved to https://github.com/konveyor/editor-extensions via https://github.com/konveyor/editor-extensions/pull/94.  All further updates will be made there.
+>
 
 # Summary statement
 
